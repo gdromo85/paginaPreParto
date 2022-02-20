@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.js": "/paginaPreParto/static/js/main.620adf7f.chunk.js",
+    "main.js.map": "/paginaPreParto/static/js/main.620adf7f.chunk.js.map",
+    "runtime-main.js": "/paginaPreParto/static/js/runtime-main.8db46a87.js",
+    "runtime-main.js.map": "/paginaPreParto/static/js/runtime-main.8db46a87.js.map",
+    "static/js/2.ed95a2df.chunk.js": "/paginaPreParto/static/js/2.ed95a2df.chunk.js",
+    "static/js/2.ed95a2df.chunk.js.map": "/paginaPreParto/static/js/2.ed95a2df.chunk.js.map",
+    "index.html": "/paginaPreParto/index.html",
+    "static/js/2.ed95a2df.chunk.js.LICENSE.txt": "/paginaPreParto/static/js/2.ed95a2df.chunk.js.LICENSE.txt",
+    "static/media/bg-about-us.cf9a123e.jpg": "/paginaPreParto/static/media/bg-about-us.cf9a123e.jpg",
+    "static/media/bg-coworking.06bccc47.jpeg": "/paginaPreParto/static/media/bg-coworking.06bccc47.jpeg",
+    "static/media/bg-sign-in-basic.f327db1d.jpeg": "/paginaPreParto/static/media/bg-sign-in-basic.f327db1d.jpeg",
+    "static/media/blog-9-4.de736e0b.jpg": "/paginaPreParto/static/media/blog-9-4.de736e0b.jpg",
+    "static/media/blog2.aba7a3cb.jpg": "/paginaPreParto/static/media/blog2.aba7a3cb.jpg",
+    "static/media/bruce-mars.8a606c4a.jpg": "/paginaPreParto/static/media/bruce-mars.8a606c4a.jpg",
+    "static/media/city-profile.4d64bba9.jpg": "/paginaPreParto/static/media/city-profile.4d64bba9.jpg",
+    "static/media/home1.ed9b6c87.jpg": "/paginaPreParto/static/media/home1.ed9b6c87.jpg",
+    "static/media/illustration-reset.c5f36c0c.jpg": "/paginaPreParto/static/media/illustration-reset.c5f36c0c.jpg",
+    "static/media/ivana-square.f7bc23b2.jpg": "/paginaPreParto/static/media/ivana-square.f7bc23b2.jpg",
+    "static/media/ivana-squares.3c555b85.jpg": "/paginaPreParto/static/media/ivana-squares.3c555b85.jpg",
+    "static/media/logo-coinbase.87e91c7f.svg": "/paginaPreParto/static/media/logo-coinbase.87e91c7f.svg",
+    "static/media/logo-nasa.c5d11f88.svg": "/paginaPreParto/static/media/logo-nasa.c5d11f88.svg",
+    "static/media/logo-netflix.432ed6b5.svg": "/paginaPreParto/static/media/logo-netflix.432ed6b5.svg",
+    "static/media/logo-pinterest.84470903.svg": "/paginaPreParto/static/media/logo-pinterest.84470903.svg",
+    "static/media/logo-spotify.7e255dc6.svg": "/paginaPreParto/static/media/logo-spotify.7e255dc6.svg",
+    "static/media/logo-vodafone.b3e8486c.svg": "/paginaPreParto/static/media/logo-vodafone.b3e8486c.svg",
+    "static/media/macbook.e0a8c5d5.png": "/paginaPreParto/static/media/macbook.e0a8c5d5.png",
+    "static/media/team-1.0fd36e0e.jpg": "/paginaPreParto/static/media/team-1.0fd36e0e.jpg",
+    "static/media/team-2.13ae2ce3.jpg": "/paginaPreParto/static/media/team-2.13ae2ce3.jpg",
+    "static/media/team-3.0ef0be95.jpg": "/paginaPreParto/static/media/team-3.0ef0be95.jpg",
+    "static/media/team-4.85c82b6e.jpg": "/paginaPreParto/static/media/team-4.85c82b6e.jpg",
+    "static/media/team-5.d59ab7b9.jpg": "/paginaPreParto/static/media/team-5.d59ab7b9.jpg",
+    "static/media/testimonial-6-2.21f2048f.jpg": "/paginaPreParto/static/media/testimonial-6-2.21f2048f.jpg",
+    "static/media/testimonial-6-3.d35bef0d.jpg": "/paginaPreParto/static/media/testimonial-6-3.d35bef0d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8db46a87.js",
+    "static/js/2.ed95a2df.chunk.js",
+    "static/js/main.620adf7f.chunk.js"
+  ]
+}

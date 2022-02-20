@@ -80,7 +80,7 @@ export default function App() {
     <ThemeProvider theme={theme}>
       <CssBaseline />
       {rutasMostrar !== [] && <DefaultNavbar routes={rutasMostrar} sticky />}
-      <Routes>
+      <Routes basename={process.env.PUBLIC_URL}>
         {getRoutes(routes)}
         {loginCorrecto && getRoutesLogueado(rutasLogueado)}
         <Route path="/presentation" element={<Presentation />} />

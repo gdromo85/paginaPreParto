@@ -70,12 +70,14 @@ import ProgressBars from "layouts/sections/elements/progress-bars";
 import Toggles from "layouts/sections/elements/toggles";
 import Typography from "layouts/sections/elements/typography";
 
+const preUrl = "/paginaPreParto";
+
 const routes = [
   {
     name: "Home",
     key: "Home",
     icon: <GitHubIcon />,
-    route: "/",
+    route: `${preUrl}/`,
     component: <Presentation />,
   },
   {
@@ -92,19 +94,19 @@ const routes = [
           {
             name: "about us",
             key: "about us",
-            route: "/pages/landing-pages/about-us",
+            route: `${preUrl}/pages/landing-pages/about-us`,
             component: <AboutUs />,
           },
           {
             name: "contact us",
             key: "contact us",
-            route: "/pages/landing-pages/contact-us",
+            route: `${preUrl}/pages/landing-pages/contact-us`,
             component: <ContactUs />,
           },
           {
             name: "author",
             key: "author",
-            route: "/pages/landing-pages/author",
+            route: `${preUrl}/pages/landing-pages/author`,
             component: <Author />,
           },
         ],
@@ -116,7 +118,7 @@ const routes = [
           {
             name: "sign in",
             key: "account",
-            route: "/pages/authentication/sign-in",
+            route: `${preUrl}/pages/authentication/sign-in`,
             component: <SignIn />,
           },
         ],
@@ -137,13 +139,13 @@ const routes = [
           {
             name: "page headers",
             key: "page headers",
-            route: "/sections/page-sections/page-headers",
+            route: `${preUrl}sections/page-sections/page-headers`,
             component: <PageHeaders />,
           },
           {
             name: "features",
             key: "features",
-            route: "/sections/page-sections/features",
+            route: `${preUrl}/sections/page-sections/features`,
             component: <Features />,
           },
         ],
@@ -157,19 +159,19 @@ const routes = [
           {
             name: "navbars",
             key: "navbars",
-            route: "/sections/navigation/navbars",
+            route: `${preUrl}/sections/navigation/navbars`,
             component: <Navbars />,
           },
           {
             name: "nav tabs",
             key: "nav tabs",
-            route: "/sections/navigation/nav-tabs",
+            route: `${preUrl}/sections/navigation/nav-tabs`,
             component: <NavTabs />,
           },
           {
             name: "pagination",
             key: "pagination",
-            route: "/sections/navigation/pagination",
+            route: `${preUrl}/sections/navigation/pagination`,
             component: <Pagination />,
           },
         ],
@@ -183,13 +185,13 @@ const routes = [
           {
             name: "inputs",
             key: "input",
-            route: "/sections/input-areas/inputs",
+            route: `${preUrl}/sections/input-areas/inputs`,
             component: <Inputs />,
           },
           {
             name: "forms",
             key: "forms",
-            route: "/sections/input-areas/forms",
+            route: `${preUrl}/sections/input-areas/forms`,
             component: <Forms />,
           },
         ],
@@ -203,19 +205,19 @@ const routes = [
           {
             name: "alerts",
             key: "alerts",
-            route: "/sections/attention-catchers/alerts",
+            route: `${preUrl}/sections/attention-catchers/alerts`,
             component: <Alerts />,
           },
           {
             name: "modals",
             key: "modals",
-            route: "/sections/attention-catchers/modals",
+            route: `${preUrl}/sections/attention-catchers/modals`,
             component: <Modals />,
           },
           {
             name: "tooltips & popovers",
             key: "tooltips & popovers",
-            route: "/sections/attention-catchers/tooltips-popovers",
+            route: `${preUrl}/sections/attention-catchers/tooltips-popovers`,
             component: <TooltipsPopovers />,
           },
         ],
@@ -229,49 +231,49 @@ const routes = [
           {
             name: "avatars",
             key: "avatars",
-            route: "/sections/elements/avatars",
+            route: `${preUrl}/sections/elements/avatars`,
             component: <Avatars />,
           },
           {
             name: "badges",
             key: "badges",
-            route: "/sections/elements/badges",
+            route: `${preUrl}/sections/elements/badges`,
             component: <Badges />,
           },
           {
             name: "breadcrumbs",
             key: "breadcrumbs",
-            route: "/sections/elements/breadcrumbs",
+            route: `${preUrl}/sections/elements/breadcrumbs`,
             component: <BreadcrumbsEl />,
           },
           {
             name: "buttons",
             key: "buttons",
-            route: "/sections/elements/buttons",
+            route: `${preUrl}/sections/elements/buttons`,
             component: <Buttons />,
           },
           {
             name: "dropdowns",
             key: "dropdowns",
-            route: "/sections/elements/dropdowns",
+            route: `${preUrl}/sections/elements/dropdowns`,
             component: <Dropdowns />,
           },
           {
             name: "progress bars",
             key: "progress bars",
-            route: "/sections/elements/progress-bars",
+            route: `${preUrl}/sections/elements/progress-bars`,
             component: <ProgressBars />,
           },
           {
             name: "toggles",
             key: "toggles",
-            route: "/sections/elements/toggles",
+            route: `${preUrl}/sections/elements/toggles`,
             component: <Toggles />,
           },
           {
             name: "typography",
             key: "typography",
-            route: "/sections/elements/typography",
+            route: `${preUrl}/sections/elements/typography`,
             component: <Typography />,
           },
         ],
@@ -322,7 +324,7 @@ export const rutasLogueado = [
     name: "Login",
     key: "Login",
     icon: <GitHubIcon />,
-    route: "/Login",
+    route: `${preUrl}/Login`,
     component: <SignIn />,
   },
 ];

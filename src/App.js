@@ -33,7 +33,7 @@ import routes, { rutasLogueado } from "routes";
 export default function App() {
   const { pathname } = useLocation();
   const loginCorrecto = false;
-
+  const preUrl = "/paginaPreParto";
   const [rutasMostrar, setRutasMostrar] = useState([]);
   // Setting page scroll to 0 when changing the route
   useEffect(() => {
@@ -76,15 +76,16 @@ export default function App() {
       return null;
     });
 
+  // eslint-disable-next-line no-return-assign
   return (
     <ThemeProvider theme={theme}>
       <CssBaseline />
       {rutasMostrar !== [] && <DefaultNavbar routes={rutasMostrar} sticky />}
-      <Routes basename={process.env.PUBLIC_URL}>
+      <Routes>
         {getRoutes(routes)}
         {loginCorrecto && getRoutesLogueado(rutasLogueado)}
-        <Route path="/presentation" element={<Presentation />} />
-        <Route path="*" element={<Navigate to="/presentation" />} />
+        <Route path={`${preUrl}/presentation`} element={<Presentation />} />
+        <Route path="*" element={<Navigate to={`${preUrl}/presentation`} />} />
       </Routes>
     </ThemeProvider>
   );
